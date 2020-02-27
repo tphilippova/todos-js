@@ -85,6 +85,7 @@ const addNewElement = () => {
 			}
 			label.style.display = 'inline-block';
 			editTodo.style.display = 'none';
+			label.classList.add('mb-0');
 		}
 	};
 
@@ -94,6 +95,7 @@ const addNewElement = () => {
 		}
 		label.style.display = 'inline-block';
 		editTodo.style.display = 'none';
+		label.classList.add('mb-0');
 	};
 
 	let closeButton = document.createElement('span');

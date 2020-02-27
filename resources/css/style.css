@@ -113,18 +113,6 @@ li.list-group-item {
 	left: 1rem;
 }
 
-/*.undone {*/
-/*	color: red;*/
-/*	font-weight: bold;*/
-/*}*/
-
-/*.undone::before {*/
-/*	content: "\2713";*/
-/*	padding-right: 1rem;*/
-/*	position: absolute;*/
-/*	left: 1rem;*/
-/*}*/
-
 span.close:hover {
 	cursor: pointer;
 	color: red;

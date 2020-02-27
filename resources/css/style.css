@@ -1,0 +1,160 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	min-width: 250px;
+	background: url(../img/background.jpg) no-repeat;
+	background-size: cover;
+}
+
+.bg-color {
+	background-color: rgb(41, 32, 26, 0.8);
+}
+
+img {
+	height: 30px;
+	margin: 10px;
+}
+
+.moto {
+	font-size: 1.2rem;
+	font-weight: bold;
+	font-family: 'Nunito';
+	color: #f2f2f2;
+	margin-left: 20px;
+}
+
+@media screen and (max-width: 700px) {
+	.moto {
+		display: none;
+	}
+}
+
+.navbar-right span {
+	color: #d5d2d1;
+	text-transform: uppercase;
+	padding: 1rem;
+}
+
+.navbar-right span:hover {
+	cursor: pointer;
+	color: #ffffff;
+}
+
+.navbar-right span:active {
+	font-weight: bold;
+}
+
+.dropdown-menu.form-wrapper {
+	/* width: 280px; */
+	padding: 20px;
+	background-color: rgb(41, 32, 26, 0.8);
+}
+
+div .dropdown-menu {
+	margin-top: 0;
+}
+
+.navbar .dropdown-menu {
+	border: #29201a;
+	border-radius: 1px;
+	box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+
+.form-control {
+	border: 1px solid #24100f;
+	border-radius: .15rem;
+}
+
+#signUpBtn.btn {
+	background-color: #8bc34a;
+	border-color: #5c8032;
+	color: #ffffff;
+}
+
+.heading {
+	text-align: center;
+}
+
+h3 {
+	color: #ffffff;
+}
+
+#myInput {
+	font-family: 'Kalam', cursive;
+}
+
+#addBtn.btn.btn-primary:disabled{
+	background-color: rgb(139, 142, 144);
+	border-color: rgb(139, 142, 144);
+}
+
+#addBtn.btn.btn-primary {
+	background-color: #8bc34a;
+	border-color: #5c8032;
+}
+
+li.list-group-item {
+	padding-left: 3rem;
+}
+
+.list ul {
+	font-family: 'Kalam', cursive;
+}
+
+.done {
+	color: #79d015;
+	font-weight: bold;
+}
+
+.done::before {
+	content: "\2713";
+	padding-right: 1rem;
+	position: absolute;
+	left: 1rem;
+}
+
+/*.undone {*/
+/*	color: red;*/
+/*	font-weight: bold;*/
+/*}*/
+
+/*.undone::before {*/
+/*	content: "\2713";*/
+/*	padding-right: 1rem;*/
+/*	position: absolute;*/
+/*	left: 1rem;*/
+/*}*/
+
+span.close:hover {
+	cursor: pointer;
+	color: red;
+	opacity: 0;
+}
+
+.button {
+	background-color: #ffffff;
+	color: #212529;
+	border: 1px solid #26130d;
+	border-radius: 0.25rem;
+	transition-duration: 0.4s;
+	margin-right: 0.25rem;
+	font-size: 0.8rem;
+}
+.button:hover {
+	background-color: #7cbd31;
+	color: #ffffff;
+}
+.button.active {
+	color: #ffffff;
+	background-color: #8bc34a;
+	border-color: #5c8032;
+	outline: none;
+}
+
+.btn-group {
+	font-family: "Roboto";
+}
+
+.filter {
+	display: none;
+}

@@ -58,7 +58,6 @@ const addNewElement = () => {
 	// adds check mark
  	label.onclick = () => {
 		label.style.display = 'inline';
-		console.log(li)
 		if (label.classList.contains('undone')) {
 			label.className = 'done';
 			li.classList.add('marked');
@@ -78,11 +77,14 @@ const addNewElement = () => {
 	};
 
 	editTodo.onkeyup = () => {
-		if (event.keyCode === 13) {
+		if (event.keyCode === 13 && editTodo.value !== '') {
 			label.innerHTML = editTodo.value;
-			if (editTodo.value !== '') {
-				label.innerHTML = editTodo.value;
-			}
+			label.style.display = 'inline-block';
+			editTodo.style.display = 'none';
+			label.classList.add('mb-0');
+		}
+		if (event.keyCode === 27 || event.keyCode === 13 && editTodo.value === '') {
+			editTodo;
 			label.style.display = 'inline-block';
 			editTodo.style.display = 'none';
 			label.classList.add('mb-0');
